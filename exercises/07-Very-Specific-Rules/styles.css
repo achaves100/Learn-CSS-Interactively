@@ -1,4 +1,10 @@
-/** Insert your code here **/
+ul li {
+	color: red !important;
+}
+
+tr:nth-child(even) {
+	background: yellow;
+}
 
 /*********** READ ONLY BLOCK ******
 You CAN NOT UPDATE anything from here on,
@@ -13,3 +19,5 @@ ul li,
 ol li {
 	color: green;
 }
+
+

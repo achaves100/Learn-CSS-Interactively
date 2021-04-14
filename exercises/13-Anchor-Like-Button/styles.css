@@ -1,7 +1,21 @@
 .orange-btn {
-	/*your code here*/
+	display: block;
+	width: 115px;
+	height: 25px;
+	background: hsl(25, 90%, 39%);
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	line-height: 25px;
 }
 
 .orange-btn:hover {
-	/*YOUR CODE HERE FOR THE HOVER STATE*/
+	background: greenyellow;
+	color: red;
+}
+.orange-btn:active {
+	background: turquoise;
+	color: brown;
 }
